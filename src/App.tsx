@@ -1,19 +1,14 @@
 import { useState } from 'react'
-import SideBar from './shared/SideBar'
-import SearchBar from './shared/SearchBar'
+import Sidebar from './shared/Sidebar'
 
 function App() {
 
   return (
-    <div 
+    <div
       className="flex gap-4"
       style={{ WebkitAppRegion: 'drag' } as React.CSSProperties}
     >
-      <SideBar />
-
-      <div className="flex-col">
-        <h1>Text</h1>
-      </div>
+      <Sidebar />
     </div>
   )
 }
